@@ -4,6 +4,8 @@
 
 Inspiration: [AngularSpinner](https://github.com/urish/angular-spinner/blob/master/angular-spinner.js)
 
+Dependencies: noopee!
+
 ## Installation
 
 **1. Download the directive via `bower`:**
