@@ -1,0 +1,23 @@
+{
+  "name": "mmsSpinner",
+  "version": "0.0.0",
+  "homepage": "https://github.com/TimDaub/mmsSpinner",
+  "authors": [
+    "Tim Daubenschütz <tim.daubenschuetz@gmail.com>"
+  ],
+  "description": "A small spinner directive for angular, especially for bootstrap buttons",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "spinner",
+    "module"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
