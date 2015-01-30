@@ -30,7 +30,7 @@
             }
           };
 
-          var InsertStyleSpinnerAndGetKey = function() {
+          var insertStyleSpinnerAndGetKey = function() {
 
             if(!attrs.height) {
               attrs.height = '20px';
@@ -50,7 +50,7 @@
 
           };
 
-          InsertStyleSpinnerAndGetKey();
+          insertStyleSpinnerAndGetKey();
           scope.$on('mms-spinner:start', startSpinner);
           scope.$on('mms-spinner:stop', stopSpinner);
       
