@@ -59,6 +59,7 @@ angular.module('yourApp', [
 
 * `height` and `width` parameters should always be specified, as they will other wise return default values
 * The `spinner-key` attribute must be specified as otherwise the spinner will not be usable
+* A working demo can be found in the demo folder
 
 
 
