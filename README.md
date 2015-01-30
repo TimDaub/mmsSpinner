@@ -4,6 +4,8 @@
 
 Inspiration: [AngularSpinner](https://github.com/urish/angular-spinner/blob/master/angular-spinner.js)
 
+Dependencies: noopee!
+
 ## Installation
 
 **1. Download the directive via `bower`:**
@@ -62,7 +64,9 @@ angular.module('yourApp', [
 * A working demo can be found in the demo folder
 
 
+## Contribution
 
+Feel free to fix bugs or enhance the module. I'd love to see that :)
 
 
 
