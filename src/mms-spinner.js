@@ -3,7 +3,7 @@
 
   angular
     .module('mms-spinner', [])
-    .service('mmsSpinnerService', ['$rootScope', function ($rootScope) {
+    .service('MmsSpinnerService', ['$rootScope', function ($rootScope) {
       return {
         start: function (key) {
           $rootScope.$broadcast('mms-spinner:start', key);

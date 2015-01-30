@@ -4,7 +4,7 @@
 angular.module('testApp', [
   'mms-spinner',
 ])
-.controller('mainCtrl', ['mmsSpinnerService', '$scope', function(mmsSpinnerService, $scope) {
+.controller('mainCtrl', ['MmsSpinnerService', '$scope', function(MmsSpinnerService, $scope) {
   
   var on = false;
 
@@ -12,9 +12,9 @@ angular.module('testApp', [
     on = !on;
 
     if(on) {
-      mmsSpinnerService.start('btnSpinner');
+      MmsSpinnerService.start('btnSpinner');
     } else {
-      mmsSpinnerService.stop('btnSpinner');
+      MmsSpinnerService.stop('btnSpinner');
     }
 
   };

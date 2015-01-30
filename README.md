@@ -38,7 +38,7 @@ angular.module('yourApp', [
 **5. Use mmsSpinnerService to start/stop the spinner:**
 
 ```javascript
-.controller('mainCtrl', ['mmsSpinnerService', '$scope', function(mmsSpinnerService, $scope) {
+.controller('mainCtrl', ['MmsSpinnerService', '$scope', function(MmsSpinnerService, $scope) {
   
   var on = false;
 
@@ -46,9 +46,9 @@ angular.module('yourApp', [
     on = !on;
 
     if(on) {
-      mmsSpinnerService.start('btnSpinner');
+      MmsSpinnerService.start('btnSpinner');
     } else {
-      mmsSpinnerService.stop('btnSpinner');
+      MmsSpinnerService.stop('btnSpinner');
     }
 
   };
