@@ -15,7 +15,7 @@ bower install mms-spinner --save-dev
 **2. Include the `.js` and `.css` files into your `index.html`:**
 
 ```html
-<script src="bower_components/mmsSpinner/src/mms-spinner.js"></script>
+<script src="bower_components/mms-spinner/src/mms-spinner.js"></script>
 <link rel="stylesheet" href="bower_components/mms-spinner/src/mms-spinner.css">
 ```
 
