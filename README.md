@@ -62,7 +62,9 @@ angular.module('yourApp', [
 * A working demo can be found in the demo folder
 
 
+## Contribution
 
+Feel free to fix bugs or enhance the module. I'd love to see that :)
 
 
 
