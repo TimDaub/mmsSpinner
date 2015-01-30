@@ -40,13 +40,19 @@
               attrs.width = '20px';
             }
 
+            if(!attrs.color) {
+              attrs.color = '2px solid black';
+            } else {
+              attrs.color = '2px solid '+attrs.color;
+            }
+
             if(angular.isDefined(attrs.spinnerKey)) {
               scope.key = attrs.spinnerKey;
             } else {
               scope.key = false;
             }
 
-            element.append(' <span class="small-spinner" style="height:'+attrs.height+'; width:'+attrs.width+'; display: none;"></span>');
+            element.append(' <span class="small-spinner" style="height:'+attrs.height+'; width:'+attrs.width+'; display: none; border:'+attrs.color+'; border-radius:50%; border-left-color: transparent; border-right-color: transparent;"></span>');
 
           };
 

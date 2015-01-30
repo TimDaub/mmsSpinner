@@ -32,7 +32,7 @@ angular.module('yourApp', [
 **4. Declare the directive in markup:**
 
 ```html
-<button type="button" class="btn btn-primary mms-spinner" spinner-key="btnSpinner" height="10px" width="10px" ng-click="click()">Click me</button>
+<button type="button" class="btn btn-primary mms-spinner" spinner-key="btnSpinner" height="10px" width="10px" color="black" ng-click="click()">Click me</button>
 ```
 
 **5. Use mmsSpinnerService to start/stop the spinner:**
@@ -61,6 +61,7 @@ angular.module('yourApp', [
 
 * `height` and `width` parameters should always be specified, as they will other wise return default values
 * The `spinner-key` attribute must be specified as otherwise the spinner will not be usable
+* The `color` attribute you're setting is actually the border color. It will default to black
 * A working demo can be found in the demo folder
 
 

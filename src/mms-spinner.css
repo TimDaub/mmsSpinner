@@ -5,10 +5,6 @@
  */
 
 .small-spinner {
-  border: 2px solid white;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-right-color: transparent;
   animation: spin 700ms infinite linear;
   -webkit-animation: spin 700ms infinite linear;
   -moz-animation: spin 700ms infinite linear;
