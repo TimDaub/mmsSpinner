@@ -1,0 +1,41 @@
+/*
+
+  Taken from: http://codepen.io/nicolae/pen/bNwObp?editors=110;
+
+ */
+
+.small-spinner {
+  border: 2px solid white;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  animation: spin 700ms infinite linear;
+  -webkit-animation: spin 700ms infinite linear;
+  -moz-animation: spin 700ms infinite linear;
+  -o-animation: spin 700ms infinite linear;
+  -ms-animation: spin 700ms infinite linear;
+}
+
+@-webkit-keyframes spin {
+  100%{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  100%{
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes spin {
+  100%{
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes spin {
+  100%{
+    -o-transform: rotate(360deg);
+  }
+}
