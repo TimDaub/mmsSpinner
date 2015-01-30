@@ -2,7 +2,7 @@
 
 // Declare app level module which depends on views, and components
 angular.module('testApp', [
-  'mmsSpinner',
+  'mms-spinner',
 ])
 .controller('mainCtrl', ['mmsSpinnerService', '$scope', function(mmsSpinnerService, $scope) {
   

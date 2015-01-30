@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('mmsSpinner', [])
+    .module('mms-spinner', [])
     .service('mmsSpinnerService', ['$rootScope', function ($rootScope) {
       return {
         start: function (key) {

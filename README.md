@@ -9,21 +9,21 @@ Inspiration: [AngularSpinner](https://github.com/urish/angular-spinner/blob/mast
 **1. Download the directive via `bower`:**
 
 ```
-bower install mmsSpinner --save-dev
+bower install mms-spinner --save-dev
 ```
 
 **2. Include the `.js` and `.css` files into your `index.html`:**
 
 ```html
-<script src="bower_components/mmsSpinner/src/mmsSpinner.js"></script>
-<link rel="stylesheet" href="bower_components/mmsSpinner/src/mmsSpinner.css">
+<script src="bower_components/mmsSpinner/src/mms-spinner.js"></script>
+<link rel="stylesheet" href="bower_components/mms-spinner/src/mms-spinner.css">
 ```
 
 **3. Insert the module name into your angular app:**
 
 ```javascript
 angular.module('yourApp', [
-  'mmsSpinner',
+  'mms-spinner',
 ]);
 ```
 
